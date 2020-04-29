@@ -31,6 +31,9 @@ img {
   text-transform: uppercase;
   text-decoration: none;
 }
+header {
+  margin-top: 27px;
+}
 .page-header a:hover {
   color: #1abc9c;
 }
@@ -49,9 +52,6 @@ li:last-child {
   float: right;
   list-style: none;
   margin-top: 8px;
-}
-.site-navigation {
-  font-family: "Open+Sans";
 }
 
 .site-navigation a {
@@ -77,7 +77,81 @@ li:last-child {
   color: #515151;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 97px;
 }
+.featured-title::after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 7px;
+  background: #1abc9c;
+
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 92px;
+}
+
+/*  */
+
 .featured-list {
   list-style: none;
+  /* width: 255px; */
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+}
+.featured-list-item {
+  float: left;
+  width: 255px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.featured-list-item:nth-child(4) {
+  margin-right: 0px;
+}
+/* .featured-list-item .featured-list-name {
+  float: left;
+} */
+/* .featured-list-name {
+  list-style: none;
+  float: left;
+  height: 40px;
+  background: #323232;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height: 32px;
+} */
+/* .featured-list-name-cena {
+  float: left;
+  width: 54px;
+  background-color: #8c8c8c;
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+} */
+.featured-list2 {
+  list-style: none;
+  text-transform: uppercase;
+}
+.featured-list-item2 {
+  float: left;
+}
+
+.text {
+  width: 201px;
+  padding: top 4px;
+  padding-left: 13px;
+  height: 40px;
+  background: red;
+  font-size: 18px;
+  line-height: 32px;
+}
+.text2 {
+  width: 54px;
+  text-align: center;
+  background: #8c8c8c;
+  height: 40px;
+  font-size: 18px;
+  line-height: 32px;
+  padding-top: 3px;
 }
