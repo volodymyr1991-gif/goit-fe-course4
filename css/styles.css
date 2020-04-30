@@ -53,10 +53,13 @@ li:last-child {
   list-style: none;
   margin-top: 8px;
 }
+.site-navigation {
+  font-family: "Open Sans";
+}
 
 .site-navigation a {
   color: #0f0101;
-  font-family: "Open+Sans";
+  /* font-family: "Open+Sans"; */
   font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
@@ -83,12 +86,12 @@ li:last-child {
 .featured-title::after {
   content: "";
   display: block;
-  width: 160px;
+  width: 162px;
   height: 7px;
   background: #1abc9c;
 
   margin: auto;
-  margin-top: 32px;
+  margin-top: 33px;
   margin-bottom: 92px;
 }
 
@@ -113,26 +116,7 @@ li:last-child {
 .featured-list-item:nth-last-child(-n + 4) {
   margin-bottom: 0px;
 }
-/* .featured-list-item .featured-list-name {
-  float: left;
-} */
-/* .featured-list-name {
-  list-style: none;
-  float: left;
-  height: 40px;
-  background: #323232;
-  color: rgb(255, 255, 255);
-  font-size: 18px;
-  line-height: 32px;
-} */
-/* .featured-list-name-cena {
-  float: left;
-  width: 54px;
-  background-color: #8c8c8c;
-  text-align: center;
-  font-size: 18px;
-  line-height: 32px;
-} */
+
 .featured-list2 {
   list-style: none;
   text-transform: uppercase;
@@ -140,7 +124,7 @@ li:last-child {
 }
 .featured-list-item2 {
   float: left;
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   font-family: "Roboto";
   font-weight: 900;
 }
@@ -181,10 +165,51 @@ li:last-child {
 .latest-title::after {
   content: "";
   display: block;
-  width: 170px;
+  width: 168px;
   height: 7px;
   background: #1abc9c;
   margin: 0 auto;
-  margin-top: 32px;
+  margin-top: 33px;
+  margin-bottom: 82px;
+}
+.latest-list {
+  list-style: none;
+  font-family: "Open Sans";
+}
+.latest-list-item {
+  width: 350px;
+  float: left;
+  margin-right: 30px;
+}
+.latest-list-name {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+.latest-list-name::after {
+  content: "";
+  display: block;
+  width: 137px;
+  height: 3px;
+  background: #1abc9c;
+  margin-top: 9px;
+  margin-bottom: 20px;
+}
+.latest-list-paragraf {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+button {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 160px;
+  height: 50px;
+  background: #1abc9c;
+  margin-top: 12px;
   margin-bottom: 80px;
 }
