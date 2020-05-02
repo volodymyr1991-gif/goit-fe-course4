@@ -138,6 +138,17 @@ li:last-child {
 .featured {
   margin-bottom: 106px;
 }
+.featured-card{
+  max-height: 100%;
+  
+
+}
+.featured-list2{
+  position: relative;
+  bottom: 4px;
+
+
+}
 
 /*  */
 
@@ -176,7 +187,7 @@ li:last-child {
 
 .text {
   width: 201px;
-  padding-top: 3px;
+  padding-top: 4px;
   padding-left: 13px;
   height: 40px;
   background: #323232;
@@ -190,7 +201,7 @@ li:last-child {
   height: 40px;
   font-size: 18px;
   line-height: 32px;
-  padding-top: 3px;
+  padding-top: 4px;
 }
 .featured-list-item:hover .text {
   background-color: #1abc9c;
